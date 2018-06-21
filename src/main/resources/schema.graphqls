@@ -1,2 +1,7 @@
 schema {
+    query: EntryPoint
+}
+
+type EntryPoint {
+    hi: String
 }
