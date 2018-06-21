@@ -1,7 +1,17 @@
 schema {
     query: EntryPoint
+    mutation: Mutations
 }
 
 type EntryPoint {
     hi: String
+    user(id:Long):User
+}
+
+type User{
+    name: String!
+}
+
+type Mutations {
+    createUser(id: Long, name: String): User
 }
