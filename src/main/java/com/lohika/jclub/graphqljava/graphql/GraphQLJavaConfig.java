@@ -1,4 +1,4 @@
-package com.lohika.jclub.graphqljava;
+package com.lohika.jclub.graphqljava.graphql;
 
 import com.coxautodev.graphql.tools.GraphQLMutationResolver;
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
